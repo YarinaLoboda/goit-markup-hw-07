@@ -1,0 +1,22 @@
+.logobem {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: $alt-text-color;
+  text-decoration: none;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $accent-text-color;
+}
+
+.logobem--top {
+  padding: 24px 0 25px;
+}
+.logobem--blackpart {
+  color: #000000;
+}
+
+.logobem--whitepart {
+  color: #ffffff;
+}

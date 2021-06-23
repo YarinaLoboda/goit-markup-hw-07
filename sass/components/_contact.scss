@@ -1,0 +1,51 @@
+.contactbem {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  align-items: center;
+}
+
+.contactbem__item--rightmargin {
+  margin-left: 30px;
+}
+
+.contactbem__link {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $primary-text-color;
+  transition-property: color, fill;
+  transition-duration: $transition-duration;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contactbem--active:hover,
+.contactbem--active:focus {
+  color: $accent-text-color;
+  fill: $accent-text-color;
+}
+
+.contactbem__icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.contactbem__icon--mail {
+  width: 16px;
+  height: 12px;
+}
+
+.contactbem__icon--phone {
+  width: 10px;
+  height: 16px;
+}
