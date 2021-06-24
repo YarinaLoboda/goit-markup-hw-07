@@ -602,6 +602,10 @@ body {
   padding: 94px 0;
 }
 
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .clients__container {
   width: 1200px;
   padding-left: 15px;
@@ -624,10 +628,6 @@ body {
 .clients__list {
   display: flex;
   justify-content: center;
-}
-
-.clients__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .clients__link {

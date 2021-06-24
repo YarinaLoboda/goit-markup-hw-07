@@ -1,5 +1,9 @@
 .clients {
   padding: 94px 0;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients__container {
@@ -25,10 +29,6 @@
   display: flex;
   justify-content: center;
   @extend %list;
-}
-
-.clients__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .clients__link {
