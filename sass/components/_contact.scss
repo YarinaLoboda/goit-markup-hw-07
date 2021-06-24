@@ -5,6 +5,12 @@
   margin: 0;
   margin-left: auto;
   align-items: center;
+
+  &--active:hover,
+  &--active:focus {
+    color: $accent-text-color;
+    fill: $accent-text-color;
+  }
 }
 
 .contactbem__item--rightmargin {
@@ -26,12 +32,6 @@
   transition-property: color, fill;
   transition-duration: $transition-duration;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contactbem--active:hover,
-.contactbem--active:focus {
-  color: $accent-text-color;
-  fill: $accent-text-color;
 }
 
 .contactbem__icon {
