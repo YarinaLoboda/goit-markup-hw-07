@@ -5,9 +5,7 @@
 .social__list {
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  @extend %list;
 }
 .social__item {
   height: 44px;

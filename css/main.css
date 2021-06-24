@@ -154,6 +154,12 @@ summary {
   cursor: pointer;
 }
 
+.nav__list, .contactbem, .features__list, .work__list, .social__list, .clients__list, .join__list, .join__social, .filter__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   background-color: #ffffff;
@@ -195,9 +201,6 @@ body {
 
 .nav__list {
   display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .nav__link {
@@ -257,9 +260,6 @@ body {
 
 .contactbem {
   display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
   margin-left: auto;
   align-items: center;
 }
@@ -363,9 +363,6 @@ body {
 }
 
 .features__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * 30px);
@@ -438,9 +435,6 @@ body {
 
 .work__list {
   display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
   flex-wrap: wrap;
   margin-left: calc(-1 * 30px);
   margin-top: calc(-1 * 30px);
@@ -566,9 +560,6 @@ body {
 .social__list {
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .social__item {
@@ -633,9 +624,6 @@ body {
 .clients__list {
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .clients__item:not(:last-child) {
@@ -739,9 +727,6 @@ body {
 }
 
 .join__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
 }
@@ -749,9 +734,6 @@ body {
 .join__social {
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .join__item {
@@ -1130,9 +1112,6 @@ body {
 .filter__list {
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .filter__item {

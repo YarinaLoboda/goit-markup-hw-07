@@ -1,10 +1,8 @@
 .contactbem {
   display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
   margin-left: auto;
   align-items: center;
+  @extend %list;
 
   &--active:hover,
   &--active:focus {
