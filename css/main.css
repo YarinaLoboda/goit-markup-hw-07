@@ -137,6 +137,23 @@ summary {
   display: list-item;
 }
 
+.hero__button, .subscribe__button, .submit__button {
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   background-color: #ffffff;
@@ -247,6 +264,11 @@ body {
   align-items: center;
 }
 
+.contactbem--active:hover, .contactbem--active:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
 .contactbem__item--rightmargin {
   margin-left: 30px;
 }
@@ -266,12 +288,6 @@ body {
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contactbem--active:hover,
-.contactbem--active:focus {
-  color: #2196f3;
-  fill: #2196f3;
 }
 
 .contactbem__icon {
@@ -317,23 +333,6 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
-}
-
-.button {
-  display: inline-block;
-  min-width: 200px;
-  padding: 10px 32px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  background-color: #2196f3;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #ffffff;
-  cursor: pointer;
 }
 
 .features {
@@ -779,7 +778,7 @@ body {
   justify-content: center;
   align-items: center;
   transition-property: fill, background-color;
-  transition-duration: var(--transition-duration);
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: white;
 }
@@ -812,20 +811,6 @@ body {
 }
 
 .subscribe__button {
-  display: inline-block;
-  min-width: 200px;
-  padding: 10px 32px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  background-color: #2196f3;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #ffffff;
-  cursor: pointer;
   padding: 10px 0 10px 29px;
   text-align: left;
 }
@@ -964,12 +949,12 @@ body {
   padding: 6px 42px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form__field--input {
   width: 100%;
   height: 40px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form__field--input:hover, .form__field--input:focus {
@@ -1121,20 +1106,6 @@ body {
 }
 
 .submit__button {
-  display: inline-block;
-  min-width: 200px;
-  padding: 10px 32px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  background-color: #2196f3;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #ffffff;
-  cursor: pointer;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
